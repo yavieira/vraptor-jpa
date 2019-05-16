@@ -1,0 +1,6 @@
+/home/yiagi/projects/vraptor/src/main/java/br/com/vraptor/controller/IndexController.java
+/home/yiagi/projects/vraptor/src/main/java/br/com/vraptor/dao/UsuarioDao.java
+/home/yiagi/projects/vraptor/src/main/java/br/com/vraptor/util/JpaUtil.java
+/home/yiagi/projects/vraptor/src/main/java/br/com/vraptor/model/Horas.java
+/home/yiagi/projects/vraptor/src/main/java/br/com/vraptor/model/Usuario.java
+/home/yiagi/projects/vraptor/src/main/java/br/com/vraptor/controller/UsuarioController.java

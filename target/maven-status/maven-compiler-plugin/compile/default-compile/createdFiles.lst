@@ -1,0 +1,6 @@
+br/com/vraptor/model/Horas.class
+br/com/vraptor/dao/UsuarioDao.class
+br/com/vraptor/controller/UsuarioController.class
+br/com/vraptor/model/Usuario.class
+br/com/vraptor/util/JpaUtil.class
+br/com/vraptor/controller/IndexController.class
