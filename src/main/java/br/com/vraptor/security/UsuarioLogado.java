@@ -3,9 +3,10 @@ package br.com.vraptor.security;
 import java.io.Serializable;
 
 import javax.enterprise.context.SessionScoped;
+import javax.inject.Named;
 
 import br.com.vraptor.model.Usuario;
-
+@Named
 @SessionScoped
 public class UsuarioLogado implements Serializable{
 
@@ -23,5 +24,9 @@ public class UsuarioLogado implements Serializable{
 	
 	public boolean isLogado() {
 		return this.user != null;
+	}
+
+	public Usuario getUser() {
+		return user;
 	}
 }

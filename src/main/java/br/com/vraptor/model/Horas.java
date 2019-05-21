@@ -26,6 +26,8 @@ public class Horas {
 
 	@ManyToOne
 	private Usuario user;
+	
+	private String comentario;
 
 	public Integer getId() {
 		return id;
@@ -65,6 +67,14 @@ public class Horas {
 
 	public void setUser(Usuario user) {
 		this.user = user;
+	}
+
+	public String getComentario() {
+		return comentario;
+	}
+
+	public void setComentario(String comentario) {
+		this.comentario = comentario;
 	}
 	
 }

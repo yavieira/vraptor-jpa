@@ -8,10 +8,10 @@
 		<tag:validationMessage name="loginInvalido"></tag:validationMessage>
 
 		<label for="login">Login: </label>
-		<input type="text" name ="user.login" id="login" class="form-control" value="${user.login}">
+		<input type="text" name ="login" id="login" class="form-control" value="${user.login}">
 
 		<label for="senha">Senha: </label>
-		<input type="password" name ="user.senha" id="senha" class="form-control" value="${user.senha}">
+		<input type="password" name ="senha" id="senha" class="form-control" value="${user.senha}">
 
 		<input type="submit" value="Autenticar" class="btn">
 

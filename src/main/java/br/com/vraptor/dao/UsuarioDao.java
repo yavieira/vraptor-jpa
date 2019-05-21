@@ -36,7 +36,7 @@ public class UsuarioDao {
 
 	public Usuario find(String login, String senha) {
 		TypedQuery<Usuario> query = em.createQuery("select u from Usuario u"
-				+ "where u.login = :login and u.c= :senha", Usuario.class);
+				+ " where u.login = :login and u.senha = :senha", Usuario.class);
 		query.setParameter("login", login);
 		query.setParameter("senha", senha);
 		return query.getSingleResult();
